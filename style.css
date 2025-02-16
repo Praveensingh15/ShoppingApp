@@ -372,4 +372,48 @@ h1,h2,h3 p{
         grid-template-columns: 1fr; /* Display 1 card per row for screens below 480px */
     }
   }
+
+  /* product feature feature comparison  styling  */
+
+
+  .product-features {
+    padding: 4em 0;
+    background-color: #eee7e7;
+    text-align: center;
+  }
+  
+  .product-features h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+    color: #333;
+  }
+  
+  .comparison-table {
+    width: 100%;
+    margin-top: 2em;
+    border-collapse: collapse; /* Collapse borders to prevent double borders */
+    border: 2px solid #ff6347; /* Border color */
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 1em;
+    border: 1px solid #dddddd; /* Border color */
+  }
+  
+  .comparison-table th {
+    background-color: #ff6347;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .comparison-table td {
+    text-align: center;
+  }
+  
+  .comparison-table tbody tr:last-child td {
+    border-bottom: none; 
+    
+  }
+  
   
